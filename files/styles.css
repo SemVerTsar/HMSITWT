@@ -1,0 +1,48 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.button {
+    background-color:#A0D2F0;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    color:#000;
+    padding:20px 50px;
+    text-decoration:none;
+    text-shadow:1px 1px 1px #2f6627;
+}
+
+.button:hover {
+    background-color:#91C5E6;
+}
+
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+.credit {
+    font-size: 10px;
+    margin: 5% 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.shirt {
+    height: 40vh;
+    width: 100%;
+    max-width: 33%;
+    margin: auto;
+    background-image: url(shirt.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
