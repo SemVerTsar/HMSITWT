@@ -1,7 +1,7 @@
-var count = document.getElementById('count').value;
-var row = document.getElementById('row');
+const count = document.getElementById('count').value;
+const row = document.getElementById('row');
 
 
-for(i = 0; i <= count; i++) {
-    row.insertAdjacentHTML('afterbegin', '<div class="item"></div>');
-}
+for(i = 0; i < count; i++) {
+    row.insertAdjacentHTML('afterbegin', '<div class="shirt"></div>');
+};
