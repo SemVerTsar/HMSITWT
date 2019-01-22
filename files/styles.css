@@ -30,7 +30,11 @@ body {
     margin: 5% 0;
 }
 
-.row {
+.hidden {
+    display: none;
+}
+
+#row {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
